@@ -7,16 +7,6 @@
     <jta-data-source>java:app/jdbc/customers</jta-data-source>
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <properties>
-      <!-- javax.persistence.schema-generation.database.action replaces hibernate.hbm2ddl.auto (sorta)
-
-        Possible values:
-          "none":            No schema creation or deletion will take place
-          "create":          Creates the schema necessary for your entities.
-                            The artifacts will remain unchanged after application redeployment.
-          "drop-and-create": Any artifacts in the database will be deleted, and the provider will
-                             create the database artifacts on deployment.
-          "drop":            Any artifacts in the database will be deleted on application deployment.
-      -->
       <property name="javax.persistence.schema-generation.database.action" value="none"/>
       <!-- eclipselink specific props -->
       <property name="eclipselink.target-database" value="org.eclipse.persistence.platform.database.H2Platform" />

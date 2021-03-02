@@ -1,5 +1,9 @@
 package com.algonquincollege.cst8277.customers2.EJB;
-
+/**
+ * 
+ * @author Jiazhao Zhang
+ *
+ */
 import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.util.List;
@@ -11,12 +15,7 @@ import javax.persistence.TypedQuery;
 import javax.transaction.Transactional;
 
 import com.algonquincollege.cst8277.customers2.model.CustomerPojo;
-/**
- * 
- * @author Zhang
- * Student ID : 040928137
- *
- */
+
 @Stateless
 public class CustomerService implements Serializable{
     

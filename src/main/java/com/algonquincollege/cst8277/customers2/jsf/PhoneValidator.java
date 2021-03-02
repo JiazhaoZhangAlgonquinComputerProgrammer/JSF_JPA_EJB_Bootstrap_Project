@@ -1,10 +1,5 @@
-/*****************************************************************c******************o*******v******id********
- * File: EmailValidator.java
- * Course materials (20F) CST 8277
- *
+/**
  * @author Jiazhao Zhang
- * Student id : 040928137
- *
  */
 package com.algonquincollege.cst8277.customers2.jsf;
 
@@ -32,7 +27,6 @@ public class PhoneValidator implements Validator<String>{
             msg.setSeverity(FacesMessage.SEVERITY_ERROR);
             throw new ValidatorException(msg);
         }
-        // TODO - use Matcher and Pattern to figure out if the value is a valid phoneNumber
         if (!PHONE_PATTERN.matcher(value).matches()) {
             FacesMessage msg = new FacesMessage("Invalid Phone Number format.");
             msg.setSeverity(FacesMessage.SEVERITY_ERROR);

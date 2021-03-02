@@ -9,16 +9,8 @@
   <artifactId>acme-customers</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-  <name>040928137_Jiazhao_Zhang_ACME Customers JSF JPA Bootstrap</name>
+  <name>JSF JPA Bootstrap</name>
   <description>Mavenized JSF JPA example</description>
-
-  <!-- why is everything a property? Because hard-coded values become part of
-      Maven's immutable Model object and then their contents can't be changed.
-      However, if the value is set in a user-defined property BEFORE the Model
-      object is created, then it is possible to do: mvn clean compile -Dfoo.bar.version=1.2.3
-      in order to (say for example) test out a newer version of some dependency
-      without having to change the pom.xml.
-  -->
   <properties>
     <!-- maven properties -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

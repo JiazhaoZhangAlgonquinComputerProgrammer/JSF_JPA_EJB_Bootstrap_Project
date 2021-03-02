@@ -1,10 +1,5 @@
-/*****************************************************************c******************o*******v******id********
- * File: NewCustomerView.java
- * Course materials (20F) CST 8277
- *
-  * @author Jiazhao Zhang
- * Student id : 040928137
- *
+/**
+ * @author Jiazhao Zhang
  */
 package com.algonquincollege.cst8277.customers2.jsf;
 
@@ -25,7 +20,6 @@ public class NewCustomerView implements Serializable {
 
     protected String firstName;
     protected String lastName;
-    // TODO - add additional required fields
     protected String phoneNumber;
     protected String email;
 

@@ -1,8 +1,5 @@
-/*****************************************************************c******************o*******v******id********
- * File: FacesConfigAndServletContextListener.java
- * Course materials (20F) CST 8277
- * @author (original) Mike Norman
- *
+/**
+ * @author: Jiazhao Zhang
  */
 package com.algonquincollege.cst8277.customers2.config;
 
@@ -22,7 +19,6 @@ import javax.servlet.annotation.WebListener;
 
 /**
  * Programatically replace web.xml setup with this {@link ServletContextListener} <br/>
- * NB: some web.xml elements cannot be programatically replaced, for example &lt;welcome-file-list&gt;
  *
  * <pre>
  * {@code
@@ -57,12 +53,9 @@ import javax.servlet.annotation.WebListener;
  </web-app>
    }
    </pre>
- *
- * @author mwnorman
  */
 @FacesConfig(
     // JSF 2.3 is configured 'out-of-the-box' to be backwards-compatible with 2.2
-    // so if you want 2.3 features, you must *explicitly* configure it with the
     // @FacesConfig annotation and Version.JSF_2_3 constant
     version = Version.JSF_2_3
 )

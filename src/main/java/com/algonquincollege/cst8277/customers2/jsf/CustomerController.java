@@ -1,10 +1,5 @@
-/*****************************************************************c******************o*******v******id********
- * File: CustomerController.java
- * Course materials (20F) CST 8277
- *
-  * @author Jiazhao Zhang
- * Student id : 040928137
- *
+/**
+ *  @author Jiazhao Zhang
  */
 package com.algonquincollege.cst8277.customers2.jsf;
 
